@@ -1,0 +1,252 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 8,
+    "passes": 8,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-12-10T12:54:35.002Z",
+    "end": "2019-12-10T12:54:35.008Z",
+    "duration": 6,
+    "testsRegistered": 8,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a2f6479e-6782-4ad0-9a8f-771653fd1156",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d20a3eac-4a13-45fe-bc06-aa92a623976b",
+          "title": "Test Even number",
+          "fullFile": "/home/etudiant2/Documents/test_logiciel/insa/tp2/tests/test.js",
+          "file": "/test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should return true when the number is even",
+              "fullTitle": "Test Even number should return true when the number is even",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.ok(isEven(2));",
+              "err": {},
+              "uuid": "2cc013be-7087-44a8-9bdd-e61645e17c53",
+              "parentUUID": "d20a3eac-4a13-45fe-bc06-aa92a623976b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return false when the number is even",
+              "fullTitle": "Test Even number should return false when the number is even",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.notOk(isEven(3));",
+              "err": {},
+              "uuid": "d6a1706e-34c4-4992-8433-6f44c4272e58",
+              "parentUUID": "d20a3eac-4a13-45fe-bc06-aa92a623976b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return error when a string is passed as argument",
+              "fullTitle": "Test Even number should return error when a string is passed as argument",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.ifError(isEven(\"Bonjour\"));",
+              "err": {},
+              "uuid": "e0a4e156-eb53-4b39-88af-5e930ae0b1aa",
+              "parentUUID": "d20a3eac-4a13-45fe-bc06-aa92a623976b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return error when a string is passed as argument",
+              "fullTitle": "Test Even number should return error when a string is passed as argument",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.ifError(isEven([1, 2, 3, 4]));",
+              "err": {},
+              "uuid": "2f572177-a6c2-447c-b8b4-c8e0a86ef866",
+              "parentUUID": "d20a3eac-4a13-45fe-bc06-aa92a623976b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return true when a negative even number is passed as argument",
+              "fullTitle": "Test Even number should return true when a negative even number is passed as argument",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.isOk(isEven(-2));",
+              "err": {},
+              "uuid": "89841daa-d897-4fac-a688-0744d0ac7088",
+              "parentUUID": "d20a3eac-4a13-45fe-bc06-aa92a623976b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return false when a float number is passed as argument",
+              "fullTitle": "Test Even number should return false when a float number is passed as argument",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.isNotOk(isEven(3.5));\nassert.isNotOk(isEven(4.5));",
+              "err": {},
+              "uuid": "1b9a9315-ba08-4f7e-9a22-3078f24cf563",
+              "parentUUID": "d20a3eac-4a13-45fe-bc06-aa92a623976b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2cc013be-7087-44a8-9bdd-e61645e17c53",
+            "d6a1706e-34c4-4992-8433-6f44c4272e58",
+            "e0a4e156-eb53-4b39-88af-5e930ae0b1aa",
+            "2f572177-a6c2-447c-b8b4-c8e0a86ef866",
+            "89841daa-d897-4fac-a688-0744d0ac7088",
+            "1b9a9315-ba08-4f7e-9a22-3078f24cf563"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "24e4d959-0ecf-4ab8-82f0-6e27864cbb93",
+          "title": "Test Bonjour function",
+          "fullFile": "/home/etudiant2/Documents/test_logiciel/insa/tp2/tests/test.js",
+          "file": "/test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should return \"Bonjour \" + user_name string passed as argument",
+              "fullTitle": "Test Bonjour function should return \"Bonjour \" + user_name string passed as argument",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.equal(bonjour(\"Jean\"), \"Bonjour Jean\");",
+              "err": {},
+              "uuid": "e4fd8568-e548-4d4a-b1d3-6db163c55dd7",
+              "parentUUID": "24e4d959-0ecf-4ab8-82f0-6e27864cbb93",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return \"Bonjour \" + user_name string passed as argument",
+              "fullTitle": "Test Bonjour function should return \"Bonjour \" + user_name string passed as argument",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.equal(bonjour(1), \"Bonjour 1\");",
+              "err": {},
+              "uuid": "d4bd48ca-df80-4e04-9ac3-2a8af3eb7153",
+              "parentUUID": "24e4d959-0ecf-4ab8-82f0-6e27864cbb93",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e4fd8568-e548-4d4a-b1d3-6db163c55dd7",
+            "d4bd48ca-df80-4e04-9ac3-2a8af3eb7153"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": null,
+      "version": "4.0.1"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+<phpunit
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/6.3/phpunit.xsd"
+	 colors="false"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         forceCoversAnnotation="false"
+	 processIsolation="false"
+	 stopOnFailure="false"
+	 verbose="false"
+>
+
+<php>
+  <var name="tailleChamps" value="15"/>
+  <var name="quantitePoneys" value="25"/>
+</php>
+
+<testsuites>
+  <testsuite name="PoneysTest">
+    <directory>tests/</directory>
+    <file>/tests/PoneysTest.php</file>
+    <exclude></exclude>
+  </testsuite>
+
+
+  <testsuite name="MonTest">
+    <directory>tests/</directory>
+    <file>/tests/MonTest.php</file>
+    <exclude></exclude>
+  </testsuite>
+</testsuites>
+
+<logging>
+  <log type="junit" target="log.xml" logIncompleteSkipped="false"/>
+</logging>
+  <!-- ... -->
+</phpunit>

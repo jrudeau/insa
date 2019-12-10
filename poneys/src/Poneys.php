@@ -11,7 +11,7 @@ class Poneys
      *
      * @return void
      */
-    public function getCount(): int
+    public function getCount()
     {
         return $this->count;
     }
@@ -23,8 +23,9 @@ class Poneys
      *
      * @return void
      */
-    public function removePoneyFromField(int $number): void
+    public function removePoneyFromField(int $number)
     {
+	if($this->count - $number < 0){ throw new Exception("OUPS total négatif"); }
         $this->count -= $number;
     }
 
@@ -33,9 +34,27 @@ class Poneys
      *
      * @return array
      */
-    public function getNames(): array
+    public function getNames()
     {
 
     }
+
+    public function addPoneyToField(int $number)
+    {
+	$this->count += $number;
+    }
+
+    public function fieldHasSpace()
+    {
+	if($this->count > 15){ return False; }
+	else{ return True; }
+    }
+
+    public function setCount(int $number)
+    {
+	$this->count = $number;
+    }
 }
+
+
 ?>
